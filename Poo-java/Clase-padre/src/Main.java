@@ -17,6 +17,7 @@ public class Main {
         } else {
             System.out.println("La edad de la persona tiene menos de 10 años");
         }
+        System.out.println("Prueba github");
 
 
 
