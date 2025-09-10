@@ -6,8 +6,8 @@ public class Persona {
     String domicilio;
     String telefono;
 
-    //Creacion de constructores_
-
+    //Creacion de constructores:
+    //constructor vacío
     public Persona() {
     }
 
