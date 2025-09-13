@@ -1,8 +1,7 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Persona {
-    public static void main(String[] args) {
-        Persona p = new Persona();
-
-    }
+    String nombrePersona;
+    protected String apellidoPersona;
+    int edadPersona;
+    // Con modificadores de acceso (encapsulamiento)
+    private final int idPerosna = 123;
 }

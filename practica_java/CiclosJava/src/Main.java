@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -39,6 +41,27 @@ public class Main {
             contador3--;
         } while (contador3 > 0);
         System.out.println("feliz año nuevo");
+
+        //Uso de centinela
+        //la centinela es el primer número negativo
+        /**
+         * CENTNELA:
+         * Actúa como señal de parada: cuando el programa encuentra ese valor, sabe que debe detenerse.
+         * Se usa en estructuras como listas, arreglos, o bucles de lectura, especialmente cuando no se conoce de antemano la cantidad de datos.
+         *
+         */
+        Scanner sc = new Scanner(System.in);
+        int numero;
+
+        do {
+            numero = sc.nextInt();
+            if (numero >= 0) {
+                System.out.println("Número leído: " + numero);
+            }
+        } while (numero >= 0);
+
+        System.out.println("Fin de la lectura");
+
 
     }
 
